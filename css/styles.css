@@ -2,7 +2,6 @@
   --light: #f4f4fd;
 }
 
-/* ===== Base ===== */
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -15,27 +14,12 @@ ul {
   margin: 0;
   padding: 0;
 }
-
 a {
   text-decoration: none;
   color: inherit;
 }
-
 button {
   font-family: inherit;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 /* ===== Header ===== */
@@ -52,7 +36,7 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logo .active {
+.logo-accent {
   color: #2e2f42;
 }
 
@@ -86,6 +70,7 @@ button {
 .hero {
   background-color: #2e2f42;
 }
+
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
@@ -93,6 +78,7 @@ button {
   color: #ffffff;
   text-align: center;
 }
+
 .hero-btn {
   cursor: pointer;
   font-family: "Roboto", sans-serif;
@@ -127,6 +113,7 @@ button {
 .team {
   background-color: #f4f4fd;
 }
+
 .section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -135,9 +122,11 @@ button {
   text-transform: capitalize;
   color: #2e2f42;
 }
+
 .team-card {
   background-color: #ffffff;
 }
+
 .team-name {
   font-weight: 500;
   font-size: 20px;
@@ -170,6 +159,8 @@ button {
 .footer {
   background-color: #2e2f42;
 }
+
+/* логотип у футері */
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -177,11 +168,12 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #4d5ae5; /* Web */
 }
-.footer-logo .active {
+.footer-accent {
   color: var(--light);
-}
+} /* Studio */
+
 .footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
