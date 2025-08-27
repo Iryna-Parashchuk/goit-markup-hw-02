@@ -60,11 +60,11 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .logo .active {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .nav-link {
@@ -78,6 +78,9 @@ button {
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
+}
+.contacts {
+  font-style: normal;
 }
 
 .contact-link {
@@ -99,6 +102,7 @@ button {
 }
 
 .hero-title {
+  text-align: center;
   color: #ffffff;
   font-size: 56px;
   line-height: 1.07;
